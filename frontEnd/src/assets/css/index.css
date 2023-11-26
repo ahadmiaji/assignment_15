@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 0px 0px;
+  }
+  .form-inside,
+  .student-list {
+    padding: 0px 0px;
+  }
+  .student-list::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  select {
+    margin-top: 25px;
+  }
+}
